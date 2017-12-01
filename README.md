@@ -6,3 +6,5 @@ If you have a lot of servers in the farm and you are tired of starting the proce
 This script is designed to install Sharepoint 2013 cumulative updates to the server farm in automatic mode, with an email notification.
 
 To speed up the work, it uses a virtual disk in memory, so you will need a driver for such a disk and 10 GB of free RAM. The script uses "ImDisk Virtual Disk Driver" (http://www.ltr-data.se/opencode.html/#ImDisk) It needs to be downloaded and installed in advance.
+
+I'm using VMware VM's. But it easy to change to HyperV.
