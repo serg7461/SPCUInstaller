@@ -31,10 +31,8 @@ $env:temp = $TMPDIR
 
 Write-output "$(get-date -uformat %H:%M:%S-%m.%d.%Y) Copy CU files $RPath"
 Copy-Item -Recurse -Path $RPath -Destination "$RAMDisk\Updates\"
-#robocopy $RPath "$RAMDisk\Updates\" /J
 
 set-alias app2run (Get-ChildItem -Path "$RAMDisk\Updates\*.exe").FullName
-#app2run /passive /norestart PACKAGE.BYPASS.DETECTION.CHECK=1
 write-output $(Get-Alias app2run).Definition
 
 app2run /log:"$LogPath\opatchinstall($date).log" /quiet /norestart PACKAGE.BYPASS.DETECTION.CHECK=1
