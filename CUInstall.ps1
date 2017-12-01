@@ -37,7 +37,7 @@ write-output $(Get-Alias app2run).Definition
 
 app2run /log:"$LogPath\opatchinstall($date).log" /quiet /norestart PACKAGE.BYPASS.DETECTION.CHECK=1
 
-Write-output "$(get-date -uformat %H:%M:%S-%m.%d.%Y) Waitin for temp folder"
+Write-output "$(get-date -uformat %H:%M:%S-%m.%d.%Y) Waiting for temp folder"
 $dyntmp = ""
 while (!$dyntmp) {
     sleep -s 15
