@@ -1,8 +1,8 @@
 # SPCUInstaller
-Приветствую друзья!
+Greetings!
 
-Если у Вас в ферме много серверов и Вам надоело руками запускать процесс усатновки кумулятивных обновлений для Sharepoint 2013 на каждом из них по очереди, то этот скрипт для Вас.
+If you have a lot of servers in the farm and you are tired of starting the process of deploying cumulative updates for Sharepoint 2013 on each of them in turn, then this script is for you.
 
-Данный скрипт предназанчен для установки кумулятивных обновлений Sharepoint 2013 на ферму серверов в автоматическом режиме, с уведомлением по Email.
+This script is designed to install Sharepoint 2013 cumulative updates to the server farm in automatic mode, with an email notification.
 
-Для ускорения работы он использует виртуальный диск в памяти, поэтому Вам понадобится драйвер такого диска и 10Гб свободной оперативной памяти. В скрипте используется "ImDisk Virtual Disk Driver" (http://www.ltr-data.se/opencode.html/#ImDisk) Его нужно скачать и установить заранее.
+To speed up the work, it uses a virtual disk in memory, so you will need a driver for such a disk and 10 GB of free RAM. The script uses "ImDisk Virtual Disk Driver" (http://www.ltr-data.se/opencode.html/#ImDisk) It needs to be downloaded and installed in advance.
