@@ -1,4 +1,4 @@
-# SPCUInstaller
+# Sharepoint 2013 Cumulative Updates Installer
 Greetings!
 
 If you have a lot of servers in the farm and you are tired of starting the process of deploying cumulative updates for Sharepoint 2013 on each of them in turn, then this script is for you.
